@@ -15,9 +15,9 @@
 		59AC26EE2C355B3000268C2C /* NutriSkinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AC26ED2C355B3000268C2C /* NutriSkinUITests.swift */; };
 		59AC26F02C355B3000268C2C /* NutriSkinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59AC26EF2C355B3000268C2C /* NutriSkinUITestsLaunchTests.swift */; };
 		59D74DF02C356787008F9279 /* GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D74DEF2C356787008F9279 /* GIF.swift */; };
-		59D74DF42C35680A008F9279 /* splashscreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D74DF32C35680A008F9279 /* splashscreen.swift */; };
-		59D74DFC2C356D9B008F9279 /* splashscreen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 59D74DFB2C356D9B008F9279 /* splashscreen.gif */; };
 		59D74DFE2C356EDA008F9279 /* NutriSkinQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D74DFD2C356EDA008F9279 /* NutriSkinQuiz.swift */; };
+		59D74E022C357A06008F9279 /* splashscreen.gif in Resources */ = {isa = PBXBuildFile; fileRef = 59D74E012C357A06008F9279 /* splashscreen.gif */; };
+		59D74E042C35A312008F9279 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59D74E032C35A312008F9279 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,9 +49,9 @@
 		59AC26ED2C355B3000268C2C /* NutriSkinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriSkinUITests.swift; sourceTree = "<group>"; };
 		59AC26EF2C355B3000268C2C /* NutriSkinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriSkinUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		59D74DEF2C356787008F9279 /* GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIF.swift; sourceTree = "<group>"; };
-		59D74DF32C35680A008F9279 /* splashscreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashscreen.swift; sourceTree = "<group>"; };
-		59D74DFB2C356D9B008F9279 /* splashscreen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = splashscreen.gif; path = ../../../../splashscreen.gif; sourceTree = "<group>"; };
 		59D74DFD2C356EDA008F9279 /* NutriSkinQuiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriSkinQuiz.swift; sourceTree = "<group>"; };
+		59D74E012C357A06008F9279 /* splashscreen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = splashscreen.gif; path = ../../../../../Downloads/splashscreen.gif; sourceTree = "<group>"; };
+		59D74E032C35A312008F9279 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,14 +102,14 @@
 		59AC26D12C355B2E00268C2C /* NutriSkin */ = {
 			isa = PBXGroup;
 			children = (
-				59D74DFB2C356D9B008F9279 /* splashscreen.gif */,
+				59D74E012C357A06008F9279 /* splashscreen.gif */,
 				59AC26D22C355B2E00268C2C /* NutriSkinApp.swift */,
 				59AC26D42C355B2E00268C2C /* ContentView.swift */,
 				59D74DFD2C356EDA008F9279 /* NutriSkinQuiz.swift */,
 				59AC26D62C355B3000268C2C /* Assets.xcassets */,
 				59AC26D82C355B3000268C2C /* Preview Content */,
 				59D74DEF2C356787008F9279 /* GIF.swift */,
-				59D74DF32C35680A008F9279 /* splashscreen.swift */,
+				59D74E032C35A312008F9279 /* SplashScreen.swift */,
 			);
 			path = NutriSkin;
 			sourceTree = "<group>";
@@ -245,7 +245,7 @@
 			files = (
 				59AC26DA2C355B3000268C2C /* Preview Assets.xcassets in Resources */,
 				59AC26D72C355B3000268C2C /* Assets.xcassets in Resources */,
-				59D74DFC2C356D9B008F9279 /* splashscreen.gif in Resources */,
+				59D74E022C357A06008F9279 /* splashscreen.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59D74DF42C35680A008F9279 /* splashscreen.swift in Sources */,
+				59D74E042C35A312008F9279 /* SplashScreen.swift in Sources */,
 				59D74DFE2C356EDA008F9279 /* NutriSkinQuiz.swift in Sources */,
 				59D74DF02C356787008F9279 /* GIF.swift in Sources */,
 				59AC26D52C355B2E00268C2C /* ContentView.swift in Sources */,

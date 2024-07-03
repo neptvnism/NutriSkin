@@ -1,4 +1,9 @@
-
+//
+//  GIFImage.swift
+//  NutriSkin
+//
+//  Created by Nadeen  on 28/08/2023.
+//
 
 import SwiftUI
 import WebKit
@@ -36,4 +41,3 @@ struct GIFImage_Previews: PreviewProvider {
         GIFImage("splashscreen")
     }
 }
-

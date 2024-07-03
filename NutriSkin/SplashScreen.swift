@@ -13,7 +13,7 @@ struct SplashScreen: View {
         } else {
             VStack {
                 VStack{
-                    GIFImage("splashscreen")
+                    GIFImage("App Intro Logo")
                         .offset(y:160)
                 }
             }
