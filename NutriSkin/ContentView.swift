@@ -1,10 +1,4 @@
-//
-//  ContentView.swift
-//  NutriSkin
-//
-//  Created by Nadeen Ihab  on 03/07/2024.
-//
-
+// will introduce the app then lead to the quiz 
 import SwiftUI
 
 struct ContentView: View {
